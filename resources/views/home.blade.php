@@ -175,7 +175,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="pertanyaan" class="form-label">Pertanyaan</label>
-                                <textarea class="form-control" rows="4" ></textarea>
+                                <textarea class="form-control" rows="4" name="pertanyaan"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Kirim Pertanyaan</button>
                         </form>
