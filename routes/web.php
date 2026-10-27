@@ -50,3 +50,7 @@ Route::post('question/store', [QuestionController::class, 'store'])
 
 
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+use App\Http\Controllers\PelangganController;
+Route::resource('pelanggan', PelangganController::class);
+
